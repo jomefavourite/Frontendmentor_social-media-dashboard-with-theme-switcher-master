@@ -14,6 +14,7 @@ $darkDesaturatedBlue_Card_BG: hsl(228, 28%, 20%);
 $desaturatedBlue_Text: hsl(228, 34%, 66%);
 $white_Text: hsl(0, 0%, 100%);
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -22,7 +23,7 @@ $white_Text: hsl(0, 0%, 100%);
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     background: $veryDarkBlueBG;
     color: $desaturatedBlue_Text;
