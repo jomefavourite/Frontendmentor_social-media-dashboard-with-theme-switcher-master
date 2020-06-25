@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   background: #1e202a;
   color: #8b97c6;
