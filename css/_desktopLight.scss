@@ -1,0 +1,53 @@
+// Dark Mode 
+
+// Lght Theme
+$toggle: #aeb3cb;
+// Light Theme 
+$whiteBG: hsl(0, 0%, 100%);
+$veryPaleBlue_Top_BG_Pattern: hsl(225, 100%, 98%);
+$lightGrayishBlue_Card_BG: hsl(227, 47%, 96%);
+$darkGrayishBlue_Text: hsl(228, 12%, 44%);
+$veryDarkBlue_Text: hsl(230, 17%, 14%);
+
+.toggle {
+    background: $toggle !important;
+}
+
+.lightBG {
+    background: $whiteBG !important;
+}
+
+.cardLight {
+    background: $lightGrayishBlue_Card_BG !important;
+    h1 {color: $veryDarkBlue_Text !important;}
+}
+
+.cardLight:hover {
+    background: darken($lightGrayishBlue_Card_BG, $amount: 10%) !important;
+}
+
+.cardLight2 {
+    background: $lightGrayishBlue_Card_BG !important;
+    h1 {color: $veryDarkBlue_Text !important;}
+}
+
+.cardLight2:hover {
+    background: darken($lightGrayishBlue_Card_BG, $amount: 10%) !important;
+}
+
+.topColor {
+    background: $veryPaleBlue_Top_BG_Pattern;
+}
+
+.h11 {
+    color: $veryDarkBlue_Text !important;
+}
+
+.lighttext {
+    color: $darkGrayishBlue_Text
+    !important;
+}
+
+.p {
+    color: $darkGrayishBlue_Text !important;
+}
